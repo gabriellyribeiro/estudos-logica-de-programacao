@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Alergia",
+            "request": "launch",
+            "mainClass": "Alergia"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "Main"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Casting",
+            "request": "launch",
+            "mainClass": "Casting"
+        }
+    ]
+}
