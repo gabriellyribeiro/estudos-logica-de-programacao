@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+<p>Usando while e for para imprimir tabuadas, entendo uso de cada um.</p>
+<script>
+     function pulaLinha(){
+        document.write("<br>");
+    }
+    function mostra(frase){
+        document.write(frase);
+        pulaLinha();
+    }
+    // usando WHILE  e usando o FOR
+    var multiplicador = 1;
+
+    while(multiplicador <= 10){
+        mostra(2 * multiplicador);
+        multiplicador = multiplicador + 1;
+    }
+    pulaLinha();
+    for(multiplicador=1; multiplicador<=10; multiplicador++){
+        mostra(3 * multiplicador);
+    }
+</script>

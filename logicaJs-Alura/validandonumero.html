@@ -1,0 +1,19 @@
+<meta charset="UTF-8">
+<p>Validando se o que entrou por teclado é número. </p>
+<script>
+    function pulaLinha(){
+        document.write("<br>");
+    }
+    function mostra(frase){
+        document.write(frase);
+        pulaLinha();
+    }
+
+var numero = parseInt(prompt("Digite um número:"));
+
+while( isNaN(numero) ) {
+    numero = parseInt(prompt("Digite um número"));    
+}
+
+mostra("Sim, "+numero+" é um número.");
+    </script>

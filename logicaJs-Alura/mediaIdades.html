@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+<p>Média das idades dos familiares</p>
+
+<script>
+    function pulaLinha(){
+        document.write("<br>");
+    }
+    function mostra(frase){
+        document.write(frase);
+        pulaLinha();
+    }
+    pulaLinha();
+
+    var qtdFamiliares =parseInt(prompt("Quantas pessoas tem na sua família? "));
+    var contador = 1;
+    var totalIdades = 0;
+
+    while( contador <= qtdFamiliares){
+    var idade = parseInt(prompt("Qual a idade?"));
+    totalIdades = totalIdades + idade;
+    contador++;
+}
+    var mediaIdades = totalIdades / qtdFamiliares;
+mostra("A média dos "+qtdFamiliares+" familiares é: "+mediaIdades);
+mostra("FIM");
+
+</script>
