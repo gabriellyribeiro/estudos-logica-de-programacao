@@ -22,6 +22,7 @@ public class Item3lista {
     int[] impares = new int[entrada];
     for (int i = 0; i < contagem.length; i++) {
       if (contagem[i] % 2 == 1) {
+        impares[i] = contagem[i];
         System.out.println(contagem[i]);
       }
     }
