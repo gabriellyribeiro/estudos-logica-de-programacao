@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Item3lista {
   // 3.  Dado um número inteiro positivo n, imprimir os n primeiros naturais
-  // ímpares.
+  // ímpares
   public static void main(String[] args) {
     // Pegando a entrada
     Scanner sn = new Scanner(System.in);
