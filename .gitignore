@@ -1,5 +1,7 @@
 *.class
 *.main
 *.vscode/launch.json
+*.docx
+*.odt
 LIXO
 portalFatec
