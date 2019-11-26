@@ -1,0 +1,23 @@
+<html>
+<meta charset="UTF-8" />
+<script>
+    function pulaLinha(){
+        document.write("<br>");
+    }
+
+    function mostra(frase){
+        document.write(frase);
+        pulaLinha();
+    }
+    var vetor = [];
+        
+        for(var i= 0; i < 1000; i++){
+            vetor.push(i);
+        }
+    
+    for (const contador of vetor) {
+        mostra("Numero_"+vetor[contador]);
+    }
+</script>
+
+</html>
