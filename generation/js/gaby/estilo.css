@@ -1,0 +1,7 @@
+body{
+    margin: 30px;
+}
+/*  article a section#peb:hover{*/
+body p#text:hover{
+    background-image: url(/img/star.png); ;
+}

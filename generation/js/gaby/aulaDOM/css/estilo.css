@@ -1,0 +1,14 @@
+body{
+    margin: 30px;
+}
+
+/*  article a section#peb:hover{*/
+p#text:hover{
+    background-image: url(../img/star.png); 
+    background-repeat: no-repeat;
+}
+
+/*p#fundo:hover{
+    background-image: url(../img/star.png); 
+    background-repeat: repeat;
+}*/
