@@ -1,12 +1,13 @@
-package lista2_8;
+package lista2_9;
 
 import java.util.Scanner;
-// Construa um programa que leia o conjunto de 20 números inteiros e mostre qual foi o maior valor fornecido.
 
-public class Lista2_8 {
+public class Lista2_9 {
+    // Construa um programa que leia o conjunto de 20 números inteiros e mostre qual
+    // foi o maior e o menor valor fornecido.
 
     public static void main(String[] args) {
-
+        int menor = 2147483647;
         int maior = 0;
         for (int i = 1; i <= 20; i++) {
             System.out.println("Digite o " + i + "º valor:");
@@ -14,8 +15,11 @@ public class Lista2_8 {
             int numero = s.nextInt();
             if (numero > maior) {
                 maior = numero;
+            } else if (numero < menor) {
+                menor = numero;
             }
         }
+        System.out.println("o menor valor é: " + menor);
         System.out.println("o maior valor é: " + maior);
     }
 }
